@@ -12,7 +12,7 @@ A web app were created, where a new message can be classified in several categor
 There are three components in this project.
 
 1. ETL Pipeline
-In the preparation phase, data were processed in Jupyter Notebook, refer 'ETL Pipeline Preparation.ipynb' for details. A data cleaning pipeline 'process_data.py' (in Workspace/Data folder) was created in a Python script including following functions:
+In the preparation phase, data were processed in Jupyter Notebook, refer `ETL Pipeline Preparation.ipynb` for details. A data cleaning pipeline `process_data.py` (in Workspace/Data folder) was created in a Python script including following functions:
 
     * Loads the messages and categories datasets
     * Merges the two datasets
@@ -21,7 +21,7 @@ In the preparation phase, data were processed in Jupyter Notebook, refer 'ETL Pi
 
 
 2. Machine Learning Pipeline
-In the preparation phase, data were processed in Jupyter Notebook, refer ' ML Pipeline Preparation.ipynb ' for details. A machine learning  pipeline 'train_classifier.py' (in Workspace/Model folder) was created in a Python script including following functions:
+In the preparation phase, data were processed in Jupyter Notebook, refer `ML Pipeline Preparation.ipynb` for details. A machine learning  pipeline `train_classifier.py` (in Workspace/Model folder) was created in a Python script including following functions:
 
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
