@@ -55,6 +55,6 @@ Here's the file structure of the project:
     >- train_classifier.py  # model traning module
     >- classifier.pkl       # saved model
     
-    >-README.md
+    >README.md
     
 
