@@ -15,19 +15,29 @@ There are three components in this project.
 In the preparation phase, data were processed in Jupyter Notebook, refer 'ETL Pipeline Preparation.ipynb' for details. A data cleaning pipeline 'process_data.py' (in Workspace/Data folder) was created in a Python script including following functions:
 
 *Loads the messages and categories datasets
+
 *Merges the two datasets
+
 *Cleans the data
+
 *Stores it in a SQLite database
+
 
 2. Machine Learning Pipeline
 In the preparation phase, data were processed in Jupyter Notebook, refer 'ML Pipeline Preparation.ipynb' for details. A machine learning  pipeline 'train_classifier.py' (in Workspace/Model folder) was created in a Python script including following functions:
 
 *Loads data from the SQLite database
+
 *Splits the dataset into training and test sets
+
 *Builds a text processing and machine learning pipeline
+
 *Trains and tunes a model using GridSearchCV
+
 *Outputs results on the test set
+
 *Exports the final model as a pickle file
+
 
 3. Flask Web App
 Here's the file structure of the project:
@@ -39,14 +49,14 @@ Here's the file structure of the project:
 | |- go.html          # classification result page of web app
 |- run.py             # Flask file that runs app
 
-- data
+'''- data
 |- disaster_categories.csv  # data to process 
 |- disaster_messages.csv    # data to process
 |- process_data.py          # data processing module
-|- InsertDatabaseName.db    # database to save clean data to
+|- InsertDatabaseName.db    # database to save clean data to'''
 
-- models
+'''- models
 |- train_classifier.py  # model traning module
-|- classifier.pkl       # saved model 
+|- classifier.pkl       # saved model''' 
 
-- README.md'''
+'''- README.md'''
