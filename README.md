@@ -36,6 +36,7 @@ Here's the file structure of the project:
     >app
     
     >- templat
+    
     >-- master.html       # main page of web app
     
     >-- go.html           # classification result page of web app
