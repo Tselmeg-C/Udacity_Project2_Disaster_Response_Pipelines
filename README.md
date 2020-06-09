@@ -1,18 +1,18 @@
 # Disaster_Response_Pipelines
-Keywords: NLP, Tfidf, Pipeline, GridSearch, Multi-lable Classification, Flask, Plotly
+Keywords: NLP, Tfidf, Pipeline, GridSearch, Multi-label Classification, Flask, Plotly
 
 ## Project description
 In this project, data engineering skills were applied to analyze disaster data from [Figure Eight](https://appen.com/) to build a model for an API that classifies disaster messages.
 
-In the project repo, messages.csv contains real messages that were sent during disaster events, while the categories.csv contains category information of those messages. One piece of message can be labled in more categories. A machine learning pipeline should be created to categorize these events so that they could be sent to an appropriate disaster relief agency, which is the real world implication of this project.
+In the project repo, messages.csv contains real messages that were sent during disaster events, while the categories.csv contains category information of those messages. One piece of the message can be labeled in more categories. A machine learning pipeline should be created to categorize these events so that they could be sent to an appropriate disaster relief agency, which is the real-world implication of this project.
 
-A web app were created, where a new message can be classified in several categories. The web app also displaies three visualizations of the data. 
+A web app were created, where a new message can be classified into several categories. The web app also displays three visualizations of the data. 
 
 ## Project components
-There are three components in this project.
+There are three components to this project.
 
 1. ETL Pipeline
-In the preparation phase, data were processed in Jupyter Notebook, refer `ETL Pipeline Preparation.ipynb` for details. A data cleaning pipeline `process_data.py` (in Workspace/Data folder) was created in a Python script including following functions:
+In the preparation phase, data were processed in Jupyter Notebook, refer `ETL Pipeline Preparation.ipynb` for details. A data cleaning pipeline `process_data.py` (in Workspace/Data folder) was created in a Python script including the following functions:
 
     * Loads the messages and categories datasets
     * Merges the two datasets
@@ -21,7 +21,7 @@ In the preparation phase, data were processed in Jupyter Notebook, refer `ETL Pi
 
 
 2. Machine Learning Pipeline
-In the preparation phase, data were processed in Jupyter Notebook, refer `ML Pipeline Preparation.ipynb` for details. A machine learning  pipeline `train_classifier.py` (in Workspace/Model folder) was created in a Python script including following functions:
+In the preparation phase, data were processed in Jupyter Notebook, refer `ML Pipeline Preparation.ipynb` for details. A machine learning  pipeline `train_classifier.py` (in Workspace/Model folder) was created in a Python script including the following functions:
 
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
@@ -35,13 +35,13 @@ In the preparation phase, data were processed in Jupyter Notebook, refer `ML Pip
 Here's the file structure of the project:
     >app
     
-    >- templat
+    >- template
     
     >-- master.html       # main page of web app
     
     >-- go.html           # classification result page of web app
     
-    >- run.py             # Flask file that runs app
+    >- run.py             # Flask file that runs the app
     
     >data
     
